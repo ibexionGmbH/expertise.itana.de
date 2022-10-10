@@ -1,0 +1,33 @@
+@tailwind base;
+
+@tailwind components;
+
+.btn-itana {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 border-b-4 border-blue-700 rounded;
+}
+.btn-itana:hover {
+  @apply bg-blue-400 border-blue-500;
+}
+
+.btn-itana a {
+  @apply text-white font-semibold tracking-wider;
+}
+.btn-itana a:hover {
+  @apply text-gray-900 font-semibold tracking-wider;
+}
+
+@tailwind utilities;
+
+h1 {
+  @apply font-bold !important;
+}
+h2 {
+  @apply font-semibold my-4 !important;
+}
+h3 {
+  @apply font-semibold my-4 !important;
+}
+
+section {
+  @apply mt-16;
+}
